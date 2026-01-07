@@ -29,7 +29,7 @@ with st.sidebar:
     st.markdown("---")
     st.caption("RGMCET | Powered by GenZetta")
 
-# --- MAIN INTERFACE ---
+
 st.title("🎓 Academic Examination Assistant")
 st.write(
     "Ask me about examination patterns, grading rules, "
@@ -51,7 +51,7 @@ for msg in st.session_state.messages:
 user_input = st.chat_input("Type your question here...")
 
 if user_input:
-    # Add user message
+    
     st.session_state.messages.append({"role": "user", "content": user_input})
     with st.chat_message("user"):
         st.markdown(user_input)
