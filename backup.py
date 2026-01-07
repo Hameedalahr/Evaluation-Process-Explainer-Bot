@@ -13,16 +13,16 @@ st.write(
     "revaluation processes, and academic regulations."
 )
 
-# Session state for chat history
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Display previous messages
+
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-# User input
+
 user_input = st.chat_input("Ask about exams, grading, or regulations")
 
 if user_input:

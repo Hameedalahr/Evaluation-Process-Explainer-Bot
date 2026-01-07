@@ -7,7 +7,7 @@ load_dotenv()
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-# ✅ Use universally supported model
+
 chat = client.chats.create(
     model="gemini-flash-latest"
 )
