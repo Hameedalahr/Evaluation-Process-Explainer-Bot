@@ -1,4 +1,4 @@
-#  Academic Exam Assistant
+#  TEAM GENZETTA - Academic Exam Assistant (PS-12)
 
 A professional AI-powered chatbot designed to assist students with academic examination guidance, grading systems, and institutional regulations. Built with Streamlit and Google Gemini AI.
 
